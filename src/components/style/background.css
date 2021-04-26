@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(yellow, coral);
+  background-repeat: no-repeat;
+}
+.container {
+  height: 715px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
