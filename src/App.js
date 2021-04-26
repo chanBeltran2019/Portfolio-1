@@ -1,5 +1,7 @@
 import React from "react"
 import MenuScreen from "./components/MenuScreen"
+import WelcomeScreen from "./components/WelcomeScreen"
+
 
 
 
@@ -8,9 +10,11 @@ export default class App extends React.Component {
       super(props)
       this.state = { active: false }
    }
+   changeScreen = () => this.setState({active: true})
   render() {
      
-      return <MenuScreen></MenuScreen>
+       return this.state.active ? <MenuScreen></MenuScreen> : <WelcomeScreen screen = {this.changeScreen} ></WelcomeScreen>
+
    }
 }
 

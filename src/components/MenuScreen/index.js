@@ -1,6 +1,7 @@
 import React from "react"
 import RepetitionExercise from "../RepetitionScreen"
 import DurationExercise from "../DurationScreen"
+import TextComponent from "../TextComponent"
 import "../style/background.css"
 import "../style/header.css"
 
@@ -47,6 +48,7 @@ class MenuScreen extends React.Component {ite
                            : (<li><button onClick={() => this.setState({ currentScreen: duration_screen,chosenItem: type })}>{type.name}</button></li>)
                      )}
                   </ul>
+                  <TextComponent></TextComponent>
                   </div>
                </div>
             )
