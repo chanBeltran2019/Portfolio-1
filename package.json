@@ -2,7 +2,7 @@
   "name": "portfolio-1",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/chanBeltran2019/portfolio-1",
+  "homepage":"https://chanbeltran2019.github.io/portfolio-1/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
